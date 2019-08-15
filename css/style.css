@@ -16,6 +16,13 @@
     padding-bottom: 205px;
     margin: 0 auto;
 }
+.row-style {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navbar-style {
+    background-color:  #fed136;
+}
 
 .menu-list {
     margin-right: 40px;

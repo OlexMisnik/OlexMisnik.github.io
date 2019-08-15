@@ -17,19 +17,26 @@
 
     <header class="header">
         <div class="container">
-            <div class="row">
+            <div class="row row-style">
                 <div class="col-lg-2">
                     <a class="logo-link link" href="#"><img src="img/logo.png" alt="Logo"></a>
                 </div>
-                <div class="col-lg-9">
-                    <ul class="nav d-flex justify-content-end">
-                        <li class=" nav-item menu-list"><a class="link" href="#">Home</a></li>
-                        <li class="nav-item menu-list"><a class="link" href="#">Services</a></li>
-                        <li class="nav-item menu-list"><a class="link" href="#">Portfolio</a></li>
-                        <li class="nav-item menu-list"><a class="link" href="#">About</a></li>
-                        <li class="nav-item menu-list"><a class="link" href="#">Contact</a></li>
-                    </ul>
-                </div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler navbar-style" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarText"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item menu-list"><a class="link" href="#">Home</a></li>
+                            <li class="nav-item menu-list"><a class="link" href="#">Services</a></li>
+                            <li class="nav-item menu-list"><a class="link" href="#">Portfolio</a></li>
+                            <li class="nav-item menu-list"><a class="link" href="#">About</a></li>
+                            <li class="nav-item menu-list"><a class="link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
         <div class="row">
@@ -49,8 +56,8 @@
                     <p class="services-subtitle subtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row justify-content-md-center">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card card-style">
                         <img src="img/icon1.png" class="icon" alt="icon1">
                         <div class="card-body">
@@ -61,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card card-style">
                         <img src="img/icon2.png" class="icon" alt="icon2">
                         <div class="card-body">
@@ -72,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="c0l-12 col-md-6 col-lg-4">
                     <div class="card card-style">
                         <img src="img/icon.png" class="icon" alt="icon3">
                         <div class="card-body">
@@ -140,13 +147,13 @@
 
             <form class="form">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-md-6 d-flex align-content-stretch flex-column">
                         <input type="text" class="form-control input-size" placeholder="your Name *">
                         <input type="email" class="form-control input-size" placeholder="your e-mail *">
                         <input type="text" class="form-control" placeholder="subject">
                     </div>
-                    <div class="col">
-                        <textarea class="form-control" placeholder="Your message *" rows="6"></textarea>
+                    <div class="col-12 col-md-6">
+                        <textarea class="form-control textarea-style" placeholder="Your message *" rows="6"></textarea>
                     </div>
                 </div>
             </form>
@@ -157,16 +164,16 @@
             </div>
         </div>
     </section>
-  
+
 
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
+            <div class="row align-items-center flex-column flex-sm-row text-center">
+                <div class="col-12 col-sm-4">
                     <p class="footer-text text text">&#xa9 Copyrite 2014 <span><a class="link"
                                 href="#">FreebiesXpress.com</a></span></p>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-12 col-sm-4 mt-3 mt-sm-0">
                     <div class="social github">
                         <a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                     </div>
@@ -184,6 +191,7 @@
         </div>
     </footer>
 
+    
 
 </body>
 
